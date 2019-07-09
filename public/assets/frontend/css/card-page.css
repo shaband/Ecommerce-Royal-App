@@ -1,0 +1,94 @@
+.page-shopping-cart{
+	margin: 20px 0;
+}
+.page-shopping-cart img{
+	width: 100%;
+}
+.wrapper-content{
+	background-color: #FFF;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+.wrapper-content .card-title{
+	font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.wrapper-content .table,
+.wrapper-content .table td{
+	border: solid 1px #eeeeee;
+	vertical-align: middle;
+}
+.text-bold{
+	font-weight: bold;
+}
+.wrapper-content .table span{
+	cursor: pointer;
+	font-size: 15px;
+}
+.wrapper-content .table img{
+	height: 40px;
+}
+.wrapper-content .table input{
+	width: 70px;
+    padding: 5px;
+}
+.wrapper-content .card-total{
+	margin: 80px 0 60px;
+}
+.wrapper-content .card-total h2{
+	font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: right;
+
+}
+.wrapper-content .card-total .checkout{
+	display: inline-block;
+    float: right;
+    padding: 10px 35px;
+    background-color: #333333;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.maybe-card h3{
+	text-align: center;
+    margin: 0 0 75px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+}
+
+.maybe-card .col-md-2{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.maybe-card .col-md-2 img{
+    display: inline-block;
+    height: 100px;
+}
+.maybe-card .col-md-2 h2{
+    font-size: 16px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    margin: 15px 0 3px 0;
+}
+.maybe-card .col-md-2 h2 a{
+    color: #373737;
+    text-decoration: none;
+}
+.maybe-card .col-md-2 .fa{
+    color: #f6b800;
+    font-size: 11px;
+}
+.decoration{
+    font-size: 13px;
+}
+.decoration span{
+    text-decoration: line-through; 
+}

@@ -1,0 +1,91 @@
+ 
+ .wrapper-content{
+ 	margin: 0 0 30px 0;
+ }
+.wrapper-content img{
+	width: 100%;
+}
+.login >div{
+	height: 360px;
+	background-color: #FFF;
+}
+.new-customer{
+	font-family: 'Lato';
+	padding: 20px 30px 0 80px;
+}
+.new-customer h1{
+	font-size: 25px;
+    margin-bottom: 30px;
+}
+.new-customer h2,
+.login-table h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+}
+.new-customer p,
+.login-table p{
+	font-size: 13px;
+    color: #7b7a7a;
+}
+.new-customer hr,
+.login-table hr{
+	margin: 15px 0 10px 0;
+}
+.new-customer .creat-account{
+	display: inline-block;
+    padding: 8px 12px;
+    background-color: #999999;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.login-table{
+	padding: 77px 80px 0 0;
+}
+.login-table p{
+	margin: 0 0 15px 0;
+}
+.login-table .form-controll{
+	display: block;
+	width: 100%;
+	padding: 0 10px;
+	color: #7b7a7a;
+	margin: 0 0 15px 0;
+}
+.login-table label{
+	font-size: 13px;
+    margin-bottom: 5px;
+    color: #7b7a7a;
+}
+.login-table label span{
+	color: red;
+	position: relative;
+	top: 3px;
+}
+.login-table .pull-left{
+	font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.login-table .pull-right{
+	font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 14px;
+    background-color: #999999;
+    border-radius: 5px;
+    border:none;
+}
+@media (max-width: 768px){
+	.login >div{
+		height: 255px; 
+	}
+	.login-table{
+		padding: 20px 30px 0 80px;
+		height: 275px !important;
+	}
+}

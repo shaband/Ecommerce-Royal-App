@@ -1,0 +1,204 @@
+.wrapper-content{
+    padding: 20px 30px 50px;
+    margin:20px 0 60px 0;
+    border-top: solid 4px #ed1c24;
+    background-color: #FFFFFF;
+}
+ .border-r{
+    border-right: solid 1px #e6e6e6;
+
+}
+
+.no-margin-left{
+    margin-left: -15px;
+}
+.wrapper-content .content-header{
+    height: 77px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: solid 1px #e6e6e6;
+}
+.wrapper-content .content-header h2{
+    font-size: 27px;
+    line-height: 77px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Calibri';
+    letter-spacing: 2px;
+}
+
+.wrapper-content .sidebar{
+    margin-right: -15px;
+}
+.sidebar-content{
+    border: solid 1px #e6e6e6;
+    padding: 10px 0 0 10px;
+    border-right: none;
+}
+.sidebar-content .product-filter {
+    padding: 0 0 30px 0;
+}
+.sidebar-content .product-filter a:link,
+.sidebar-content .product-filter a:visited{
+    display: block;
+    text-decoration: none;
+    padding: 7px 0 7px 10px;
+    font-size: 19px;
+    color: #565656;
+
+}
+.sidebar-content .product-filter a.active{
+    color: #FFFFFF;
+    background-color: #3399ff;
+
+}
+.sidebar-content .special-offer{
+    padding: 0 0 20px 0;
+}
+.sidebar-content .special-offer h2{
+    font-size: 20px;
+    font-family: 'Calibri';
+    border-bottom: solid 1px #e6e6e6;
+    margin: 0 10px;
+    color: #000;
+    padding-bottom: 8px;
+}
+.sidebar-content .special-offer ul li {
+    margin-top: 20px;
+    display: block;
+    clear: both;
+}
+.sidebar-content .special-offer ul li >img {
+    float: left;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border: solid 1px #e6e6e6;
+    margin: 0 10px 0 0 ;
+}
+.sidebar-content .special-offer ul li .offer-content{
+    margin: 0 5px 0 0;
+}
+
+.sidebar-content .special-offer ul li .offer-content h4 a:link,
+.sidebar-content .special-offer ul li .offer-content h4 a:visited{
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.sidebar-content .special-offer ul li .offer-content .offer-price span{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #868686;
+}
+
+.devices-content .devices-item{
+    text-align: center;
+    padding: 18px 7px 7px;
+    border: 1px solid #eeeeee;
+    position: relative;
+    min-height: 448px;
+    margin: 10px;
+    width: 30%;
+}
+.devices-item .add-to-cart-home{
+    left: 19%;
+}
+@media(max-width: 1200px)  {
+    .devices-item .add-to-cart-home{
+        left: 11%;
+    }
+}
+@media(max-width: 992px)  {
+    .devices-content .devices-item{
+        width: 45.5%;
+    }
+    .devices-item .add-to-cart-home{
+        left: 25%;
+    }
+}
+@media(max-width: 768px)  {
+    .devices-content .devices-item{
+        width: 45.5%;
+        float: left;
+    }
+    .devices-item .add-to-cart-home{
+        left: 17%;
+    }
+}
+@media(max-width: 578px)  {
+    .devices-content .devices-item{
+        width: 90%;
+        margin: 0 auto 15px;
+        float: none;
+    }
+    .devices-item .add-to-cart-home{
+        left: 32%;
+    }
+    .wrapper-content{
+        padding: 20px 0 50px;
+    }
+    .wrapper-content .sidebar{
+        margin: 0;
+    }
+    .no-margin-left{
+        margin-left: -30px;
+    }
+}
+
+.devices-content .devices-item img{
+    display: inline-block;
+    width: 100%;
+    height: 260px;
+    transition: all 1s ease-in-out;
+}
+.devices-content .devices-item h2{
+    font-size: 16px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    margin: 15px 0 3px 0;
+}
+.devices-content .devices-item h2 a{
+    color: #373737;
+    text-decoration: none;
+}
+.devices-content .devices-item .fa{
+    color: #f6b800;
+    font-size: 11px;
+}
+.decoration{
+    font-size: 13px;
+}
+.decoration span{
+    text-decoration: line-through;
+}
+.devices-content{
+    border: solid 1px #e6e6e6;
+    margin-left: -15px;
+    padding: 20px 0 0 0;
+}
+.devices-content .devices-item p:last-child{
+    font-size: 26px;
+}
+
+.content .show-more{
+    display: block;
+    padding: 14px 14px;
+    background-color: #f5151c;
+    color: #FFF;
+    border-radius: 7px;
+    margin: 60px auto 30px;
+    width: 155px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1200px) {
+    .wrapper-content .content-header h2 {
+        font-size: 20px
+    }
+
+}

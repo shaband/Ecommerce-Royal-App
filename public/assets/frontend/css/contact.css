@@ -1,0 +1,95 @@
+.contact-content{
+	background-color: #FFF;
+	margin: 20px 0 30px 0;
+	padding: 20px;
+	border-top: solid 3px #ed1c24;
+}
+.contact-content .col-sm-12 h1{
+	font-size: 45px;
+    font-family: 'Calibri';
+}
+.contact-content .col-sm-12 p{
+	font-size: 14px;
+}
+.contact-content .col-sm-12 h2,
+.address h2{
+	font-size: 17px;
+	font-weight: bold;
+}
+.contact-content .col-sm-12 .small-size{
+	margin: 10px 0;
+}
+.iframe-map {
+	padding: 0;
+	margin: 10px 0;
+}
+.address{
+	margin: 0 0 50px 0;
+    padding: 15px 10px 20px;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+}
+.address>div{
+	margin-bottom: 20px;
+}
+.address p{
+	font-size: 14px;
+    margin-top: 3px;
+    font-weight: 500;
+}
+.form-contact .form-contact-header{
+	background-color: #eaeaea;
+    margin-bottom: 50px;
+    position: relative;
+    height: 45px;
+}
+.form-contact .form-contact-header h2{
+	display: inline-block;
+    background-color: #379aff;
+    color: #FFFFFF;
+    padding: 9px 20px 11px 15px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+.form-contact {
+
+}
+.form-contact .form-controll{
+	display: block;
+	width: 100%;
+	padding: 0 10px;
+	color: #7b7a7a;
+	margin: 0 0 15px 0;
+	height: 40px;
+}
+.form-contact label{
+	font-size: 13px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.form-contact label span{
+	color: red;
+	position: relative;
+	top: 3px;
+}
+.form-contact #text{
+	display: block;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 15px;
+}
+.form-contact .submit{
+	display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto 30px;
+    border: none;
+    background-color: #2a2931;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
